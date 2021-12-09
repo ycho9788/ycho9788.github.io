@@ -108,9 +108,6 @@ author:
   location         : "The United States of America"
   email            : "yongcho9788@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:yongcho9788@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://ycho9788.github.io"
