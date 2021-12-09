@@ -105,7 +105,7 @@ author:
   name             : "Yong Il Jo Cho"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "This is Jo's journey"
-  location         : "The United States of America"
+  location         : "iowa City"
   email            : "yongcho9788@gmail.com"
   links:
     - label: "Website"
@@ -229,15 +229,15 @@ whitelist:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /About/
+  path: /categories/
 tag_archive:
   type: liquid
-  path: /Algorithm/
+  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
-    - About
-    - Algorithm
+    - categories
+    - tags
   layouts:
     category: archive-taxonomy
     tag: archive-taxonomy
