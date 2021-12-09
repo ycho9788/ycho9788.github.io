@@ -6,9 +6,9 @@ toc: true
 ---
 
 1. Deterministic Quicksort
-Implement the Deterministic Quicksort algorithm. Write a “driver” program that reads a sequence of
+Implemented the Deterministic Quicksort algorithm. A “driver” program that reads a sequence of
 numbers form a file, loads them into a list, calls Quicksort to sort the array, and keeps track of the time
-Quicksort takes to sort the array. Using this program, perform the following experiments.
+Quicksort takes to sort the array.
 
 
 
