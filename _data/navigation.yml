@@ -4,6 +4,7 @@ main:
     url: /categories/
   - title: "Algorithm"
     url: /algorithm/
+    '''
   - title: "Collections"
     url: /collection-archive/
   - title: "Sitemap"
@@ -59,3 +60,4 @@ sidebar-sample:
         url: /child-page-d2/
       - title: "Child Page D3 (External)"
         url: https://your-domain.com
+        '''
