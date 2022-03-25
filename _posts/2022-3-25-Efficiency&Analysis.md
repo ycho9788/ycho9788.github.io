@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Question 3. Algorithm Efficiency Problem"
-categories: Questions
+categories: Studies
 toc: true
 ---
 
