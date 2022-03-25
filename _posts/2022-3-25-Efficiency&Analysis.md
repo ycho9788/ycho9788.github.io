@@ -77,3 +77,5 @@ would say is more efficient as it has less sitting in memory. Now we call this i
 Complexity! So to recap we look at efficiency of algorithms in two ways:
 1. Time Complexity
 2. Space Complexity
+
+[LYNMP 홈페이지 바로가기](https://github.com/ycho9788/Questions "개발자들의 퇴근 도우미 LYNMP")
