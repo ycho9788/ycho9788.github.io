@@ -12,7 +12,6 @@ be the elapsed time. The second measurement is a count of the number of times th
 to a list element.
 
 ```python
-'''Sequential Search algorithm'''
 
 def seqSearch(L, key):
     count = 0
@@ -22,7 +21,6 @@ def seqSearch(L, key):
             break
     return count
 
-'''Binary search algorithm'''
 def binarySearch(L, key):
     L.sort()
     low, high = 1, len(L) - 1
@@ -41,14 +39,14 @@ def binarySearch(L, key):
             low = mid + 1
     return count
 
-'''Creates as list of random integers with a key from list'''
+
 def createList(n):
     maxInt = (2 * n) // 3
     L = [random.randrange(1, maxInt, 1) for i in range(n)]
     key = random.choice(L)
     return L, key
 
-'''Main function to run both algorithms and gather running time data'''
+
 def runForN():
 
     # starts with list of size 10
@@ -116,4 +114,4 @@ def runForN():
 
     # returns data
     return allAvgSeqCounts, allAvgSeqTime, allAvgBinCounts, allAvgBinTime
-    ```
+```
