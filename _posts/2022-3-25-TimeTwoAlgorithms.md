@@ -11,8 +11,9 @@ The program measures the “running time” in two different ways. The first mea
 be the elapsed time. The second measurement is a count of the number of times the key is compared
 to a list element.
 
-
+```python
 '''Sequential Search algorithm'''
+
 def seqSearch(L, key):
     count = 0
     for i in range(0, len(L) - 1):
@@ -115,3 +116,4 @@ def runForN():
 
     # returns data
     return allAvgSeqCounts, allAvgSeqTime, allAvgBinCounts, allAvgBinTime
+    ```
